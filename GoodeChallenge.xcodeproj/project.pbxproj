@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45A211E3C28ECDD9F805DCA1 /* Pods_GoodeChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547C2E3D053A8BA7E2DF1828 /* Pods_GoodeChallenge.framework */; };
 		5B4EDAA31D86351900F6A66A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EDAA21D86351900F6A66A /* AppDelegate.swift */; };
 		5B4EDAA51D86351900F6A66A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EDAA41D86351900F6A66A /* ViewController.swift */; };
 		5B4EDAA81D86351900F6A66A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4EDAA61D86351900F6A66A /* Main.storyboard */; };
 		5B4EDAAA1D86351900F6A66A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4EDAA91D86351900F6A66A /* Assets.xcassets */; };
 		5B4EDAAD1D86351900F6A66A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4EDAAB1D86351900F6A66A /* LaunchScreen.storyboard */; };
 		5B4EDAB81D86351900F6A66A /* GoodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EDAB71D86351900F6A66A /* GoodeChallengeTests.swift */; };
+		5B947C171D864D6000C9573D /* FacebookCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B947C111D864D6000C9573D /* FacebookCore.framework */; };
+		5B947C181D864D6000C9573D /* FacebookLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B947C121D864D6000C9573D /* FacebookLogin.framework */; };
+		5B947C1E1D86502A00C9573D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B947C1D1D86502A00C9573D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		547C2E3D053A8BA7E2DF1828 /* Pods_GoodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodeChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4EDA9F1D86351900F6A66A /* GoodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4EDAA21D86351900F6A66A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B4EDAA41D86351900F6A66A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,15 @@
 		5B4EDAB31D86351900F6A66A /* GoodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4EDAB71D86351900F6A66A /* GoodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodeChallengeTests.swift; sourceTree = "<group>"; };
 		5B4EDAB91D86351A00F6A66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B947C101D864D6000C9573D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
+		5B947C111D864D6000C9573D /* FacebookCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookCore.framework; path = Carthage/Build/iOS/FacebookCore.framework; sourceTree = "<group>"; };
+		5B947C121D864D6000C9573D /* FacebookLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookLogin.framework; path = Carthage/Build/iOS/FacebookLogin.framework; sourceTree = "<group>"; };
+		5B947C131D864D6000C9573D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		5B947C141D864D6000C9573D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Carthage/Build/iOS/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		5B947C151D864D6000C9573D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = Carthage/Build/iOS/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		5B947C1D1D86502A00C9573D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		86074C2AE307171EE4DCE9C9 /* Pods-GoodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodeChallenge/Pods-GoodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		E9695753C797AD239DE6E4E7 /* Pods-GoodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodeChallenge/Pods-GoodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B947C171D864D6000C9573D /* FacebookCore.framework in Frameworks */,
+				5B947C181D864D6000C9573D /* FacebookLogin.framework in Frameworks */,
+				45A211E3C28ECDD9F805DCA1 /* Pods_GoodeChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +73,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41CEBF7771804718C89635B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86074C2AE307171EE4DCE9C9 /* Pods-GoodeChallenge.debug.xcconfig */,
+				E9695753C797AD239DE6E4E7 /* Pods-GoodeChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5B4EDA961D86351900F6A66A = {
 			isa = PBXGroup;
 			children = (
 				5B4EDAA11D86351900F6A66A /* GoodeChallenge */,
 				5B4EDAB61D86351900F6A66A /* GoodeChallengeTests */,
 				5B4EDAA01D86351900F6A66A /* Products */,
+				41CEBF7771804718C89635B7 /* Pods */,
+				B5D02A70D6EE186BD1FC3E22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +105,14 @@
 		5B4EDAA11D86351900F6A66A /* GoodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				5B4EDACA1D863AA700F6A66A /* New Group */,
 				5B4EDAA21D86351900F6A66A /* AppDelegate.swift */,
 				5B4EDAA41D86351900F6A66A /* ViewController.swift */,
 				5B4EDAA61D86351900F6A66A /* Main.storyboard */,
 				5B4EDAA91D86351900F6A66A /* Assets.xcassets */,
 				5B4EDAAB1D86351900F6A66A /* LaunchScreen.storyboard */,
 				5B4EDAAE1D86351900F6A66A /* Info.plist */,
+				5B947C1D1D86502A00C9573D /* GoogleService-Info.plist */,
 			);
 			path = GoodeChallenge;
 			sourceTree = "<group>";
@@ -96,6 +126,27 @@
 			path = GoodeChallengeTests;
 			sourceTree = "<group>";
 		};
+		5B4EDACA1D863AA700F6A66A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		B5D02A70D6EE186BD1FC3E22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B947C101D864D6000C9573D /* Bolts.framework */,
+				5B947C111D864D6000C9573D /* FacebookCore.framework */,
+				5B947C121D864D6000C9573D /* FacebookLogin.framework */,
+				5B947C131D864D6000C9573D /* FBSDKCoreKit.framework */,
+				5B947C141D864D6000C9573D /* FBSDKLoginKit.framework */,
+				5B947C151D864D6000C9573D /* FBSDKShareKit.framework */,
+				547C2E3D053A8BA7E2DF1828 /* Pods_GoodeChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +154,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B4EDABC1D86351A00F6A66A /* Build configuration list for PBXNativeTarget "GoodeChallenge" */;
 			buildPhases = (
+				0F8FDAA2C3CDCB87461FE305 /* [CP] Check Pods Manifest.lock */,
 				5B4EDA9B1D86351900F6A66A /* Sources */,
 				5B4EDA9C1D86351900F6A66A /* Frameworks */,
 				5B4EDA9D1D86351900F6A66A /* Resources */,
+				C731E62281BA1BAEEC73F8C3 /* [CP] Embed Pods Frameworks */,
+				73A0DCA845D8D1EF82CC9581 /* [CP] Copy Pods Resources */,
+				5B947C1C1D864D6800C9573D /* Embed Carthage frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,14 +196,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Fernando Rocha Silva";
 				TargetAttributes = {
 					5B4EDA9E1D86351900F6A66A = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C9FVQFAP43;
+						LastSwiftMigration = 0800;
 					};
 					5B4EDAB21D86351900F6A66A = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 5B4EDA9E1D86351900F6A66A;
 					};
 				};
@@ -178,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4EDAAD1D86351900F6A66A /* LaunchScreen.storyboard in Resources */,
+				5B947C1E1D86502A00C9573D /* GoogleService-Info.plist in Resources */,
 				5B4EDAAA1D86351900F6A66A /* Assets.xcassets in Resources */,
 				5B4EDAA81D86351900F6A66A /* Main.storyboard in Resources */,
 			);
@@ -191,6 +250,73 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F8FDAA2C3CDCB87461FE305 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B947C1C1D864D6800C9573D /* Embed Carthage frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/FacebookCore.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FBSDKCoreKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Bolts.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FBSDKLoginKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FacebookLogin.framework",
+			);
+			name = "Embed Carthage frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		73A0DCA845D8D1EF82CC9581 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoodeChallenge/Pods-GoodeChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C731E62281BA1BAEEC73F8C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoodeChallenge/Pods-GoodeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B4EDA9B1D86351900F6A66A /* Sources */ = {
@@ -253,8 +379,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -297,8 +425,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -317,29 +447,44 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		5B4EDABD1D86351A00F6A66A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86074C2AE307171EE4DCE9C9 /* Pods-GoodeChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C9FVQFAP43;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GoodeChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fernandorocha.GoodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		5B4EDABE1D86351A00F6A66A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9695753C797AD239DE6E4E7 /* Pods-GoodeChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C9FVQFAP43;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GoodeChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fernandorocha.GoodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -351,6 +496,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fernandorocha.GoodeChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodeChallenge.app/GoodeChallenge";
 			};
 			name = Debug;
@@ -363,6 +509,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fernandorocha.GoodeChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodeChallenge.app/GoodeChallenge";
 			};
 			name = Release;
@@ -386,6 +533,7 @@
 				5B4EDABE1D86351A00F6A66A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B4EDABF1D86351A00F6A66A /* Build configuration list for PBXNativeTarget "GoodeChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +542,7 @@
 				5B4EDAC11D86351A00F6A66A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
