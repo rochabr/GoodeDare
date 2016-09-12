@@ -34,13 +34,18 @@ class ViewController: UIViewController, LoginButtonDelegate {
                 print(error)
             case .Cancelled:
                 print("User cancelled login.")
-            case .Success(let grantedPermissions, let declinedPermissions, let accessToken):
+            case .Success( _, _, let accessToken):
                 print("Logged in!")
+                let credential = FIRFacebookAuthProvider.credentialWithAccessToken(accessToken.authenticationToken)
+                FIRAuth.auth()?.signInWithCredential(credential) { (user, error) in
+                    print("\(user!.displayName)")
+                }
         }
     }
     
     func loginButtonDidLogOut(loginButton: LoginButton) {
         print("User Logged Out")
+        try! FIRAuth.auth()!.signOut()
     }
 
 }
