@@ -8,6 +8,7 @@
 
 import UIKit
 import FacebookLogin
+import FBSDKCoreKit
 import Firebase
 
 class ViewController: UIViewController, LoginButtonDelegate {
@@ -39,7 +40,23 @@ class ViewController: UIViewController, LoginButtonDelegate {
                 let credential = FIRFacebookAuthProvider.credentialWithAccessToken(accessToken.authenticationToken)
                 FIRAuth.auth()?.signInWithCredential(credential) { (user, error) in
                     print("\(user!.displayName)")
+                    self.fetchFriends()
                 }
+        }
+    }
+    
+    func fetchFriends(){
+        let params = ["fields": "id, first_name, last_name, middle_name, name, email, picture"]
+        let request = FBSDKGraphRequest(graphPath: "me/taggable_friends", parameters: params)
+        request.startWithCompletionHandler { (connection : FBSDKGraphRequestConnection!, result : AnyObject!, error : NSError!) -> Void in
+            
+            if error != nil {
+                let errorMessage = error.localizedDescription
+            }
+            else {//if result.isKindOfClass(NSDictionary){
+                /* Handle response */
+                print("Friends: \(result)")
+            }
         }
     }
     
